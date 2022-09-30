@@ -24,6 +24,13 @@ h1, h2, h3{
     letter-spacing: 0.5px;
 }
 
+.link{
+    background: rebeccapurple;
+    color: white;
+    padding: 8px 15px;
+    margin-left: 10px;
+}
+
 .header {
     display: flex;
     border-bottom: 1px solid #000;
@@ -49,9 +56,14 @@ section{
 ul {
     display: flex;
     list-style-type: none;
-    padding-left: 0;
-    margin: 0;
+    padding-left: 0px;
+    margin: 0px;
 }
+
+ul li:last-child{
+    margin-right:0px;
+}
+
 ul > li {
     margin-right: 30px;
 }
